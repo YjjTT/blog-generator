@@ -4,12 +4,12 @@
 
 # Site
 title: YjjTT
-subtitle:
+subtitle: 学习是件认真的事情！
 description:
 keywords:
 author: Jiang Tao
-language:
-timezone:
+language: zh-Hans
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
