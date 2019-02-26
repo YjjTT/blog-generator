@@ -84,6 +84,7 @@ for(let key in obj){
 1. 所以遍历是是遍历, 和是不是数组无关, 有关的是有没有下标.
 2. 数组之所以为数组, 是因为你觉得他是数组, 觉得是数组就使用`for(let i = 0;i<obj.length;i++)`进行遍历, 觉得不是就使用`for(let key in obj)`遍历.
 3. 数组本质: ____proto____(原型)指向了`Array.prototype`.
+4. 伪数组: 原型链中____proto____没有指向`Array.prototype`, 例如(obj, arguments)
 
 ### 静态方法
 
